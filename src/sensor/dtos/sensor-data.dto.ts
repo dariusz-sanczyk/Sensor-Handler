@@ -1,4 +1,4 @@
 export class SensorDto {
-    temperature: number;
-    humidity: number;
+  temperature: number;
+  humidity: number;
 }
