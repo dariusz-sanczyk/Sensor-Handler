@@ -14,7 +14,7 @@ export class SensorGateway {
 
   constructor(private readonly sensorService: SensorService) {}
 
-  @SubscribeMessage('message')
+  @SubscribeMessage('data')
   handleSensorData(@MessageBody() data: SensorDto): void {
     this.sensorService.handleSensorData(data);
   }
