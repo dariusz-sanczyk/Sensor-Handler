@@ -1,13 +1,20 @@
-# Sensor App
+# Sensor Data Handler
 
 This project is a NestJS application that handles input from temperature and humidity sensors using WebSockets. The data is validated and stored in a MongoDB database. Docker Compose is used for container orchestration.
 
-## Setup
+## Features
 
-### Prerequisites
+- WebSocket server to receive sensor data.
+- CRUD operations for sensor data using REST API.
+- MongoDB integration using Mongoose.
+- Containerized environment using Docker and Docker Compose.
+
+## Prerequisites
 
 - Docker
 - Docker Compose
+- Node.js (for local development)
+- npm (for local development)
 
 ### Running the Application
 
